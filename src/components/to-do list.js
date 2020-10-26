@@ -9,6 +9,8 @@ export default class ToDOList extends Component {
         <ToDoItem/>
         <ToDoItem/>
         <ToDoItem/>
+        <ToDoItem/>
+
 
 
 

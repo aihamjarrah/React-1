@@ -5,9 +5,9 @@ export default class Add extends Component {
   render() {
     return (
       <div className="add">
-        <input type="text" placeholder="Add here" />
+        <input type="text" placeholder="Add here" className="inputText" />
         <button className="addButton">Add</button>
-        <ToDOList/> 
+        
         
       </div>
     );

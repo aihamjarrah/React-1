@@ -1,28 +1,31 @@
 .app{
     display: flex;
     flex-direction: column;
-    border: 5px solid green;
+    align-items: center;
+    gap: 10px;
+    background-color: lavender;
 }
 .add{
     display: flex;
     align-items: center ;
-    height: 500px;
-    flex-direction: column;
     gap: 10px;
-    border: 5px solid red;
 }
 .toDoList{
     display: grid;
     gap: 5px;
-    border: 5px solid blue;
+    border: 3px solid lightseagreen;
     height: 400px;
     width: 400px;
 }
 .toDoItem{
     border: 5px solid black;
 }
+.inputText{
+    border: 3px solid lightseagreen;
+    background-color: mintcream;
+}
 .addButton{
-    position: relative;
     bottom: 32px;
-    left: 110px;
+    border-radius: 20px;
+    background-color: lightseagreen;
 }
